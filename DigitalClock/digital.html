@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital_Clock</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digitalClock{
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="digitalClock">
+            <div id="hour"></div>
+            <dir id="dot">:</dir>
+            <div id="minute"></div>
+            <dir id="dot">:</dir>
+            <div id="secand"></div>
+            <div id="period"></div>
+        </div>
+    </section>
+    <!-- vanila js -->
+    <script src="./digital.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+.calculator{
+    background-color: black;
+    box-shadow: 0 0 10px rgba(71,71,71,0.5);
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.input-box{
+    width: 100%;
+    padding: 0 10px;
+}
+.input-box form input{
+    width: 100%;
+    padding: 20px 10px;
+    text-align: right;
+    background-color: rgba(71,71,71,0.5);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.input-box form input::placeholder{
+    color: white;
+    font-size: 1.5rem;
+}
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+ button{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(71,71,71,0.5);
+    outline: none;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.arthmatic-unit{
+    background-color: orange!important;
+    font-weight: bolder;
+}
+@media(max-width:350px){
+    .hero{padding: 0 10px;}
+    .calculator{width: 100%;}
+}
