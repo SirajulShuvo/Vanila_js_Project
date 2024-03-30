@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.otp-generator{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(71,71,71,0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.otp-generator h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top:20px;
+    font-weight: normal;
+}
+.otp-generator button{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0;
+
+}
+#input-field{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-icon{
+    position: absolute;
+    top: 0;
+    right: -20px;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: blue;
+    cursor: pointer;
+}
+.input-icon span{margin-top: 10px;}
+#myInput{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 100px;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#myInput::-webkit-inner-spin-button{
+    display: none;
+}
+
+@media(max-width:450px){
+    .otp-generator{
+        width: 300px;
+    }
+}
