@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+}
+.some{
+	position: sticky!important;
+	top: 0;
+	left: 0;
+	background-color: aqua;
+}
+nav .logo {
+	text-decoration: none;
+	font-size: 1rem;
+	text-transform: uppercase;
+
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li {
+	margin: 0 10px;
+}
+.menu ul li a{
+	font-size: 18px;
+	text-decoration: none;
+}
+nav .btn button{
+	border: none;
+	outline: none;
+	background-color: red;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 10px;
+}
