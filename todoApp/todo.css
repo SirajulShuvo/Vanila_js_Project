@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoDiv{
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    background-color: rgb(235, 235, 242);
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+}
+.input-field p{
+    font-size: 20px;
+    padding: 0 10px;
+}
+input[type=text]{
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+.input-field input[type = submit] {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: azure;
+}
+.task{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.incompleteTask{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
